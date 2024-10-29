@@ -11,6 +11,7 @@ app.use(express.json())
 // connect to db
 
 app.get('/', (req, res) => {
+  console.log('asdasdasd')
   res.send("hello world!")
 })
 
